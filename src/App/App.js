@@ -1,7 +1,8 @@
-import { categoriesIds } from "./Utils.js"
-import { Navigation } from "./Navigation.js"
-import { Articles } from "./Article.js"
+import { categoriesIds } from "../Utils.js"
+import { Navigation } from "../Navigation/Navigation.js"
+import { Articles } from "../Articles/Articles.js"
 import React from "react"
+import "./App.css"
 export const App = () => {
     const [category, setCategory] = React.useState("index")
     const [articles, setArticles] = React.useState({items:[], sources:[], categories:[]})

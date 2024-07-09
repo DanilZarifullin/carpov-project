@@ -1,10 +1,12 @@
 import React from "react"
-import { categoriesNames } from "./Utils.js"
+import { categoriesNames } from "../Utils.js"
+import "./Navigation.css"
+import logo from "../../images/logo.svg"
 export const Navigation = ({className, cb, currentCategory}) => {
     return (
         <nav className={`navigation grid ${className}`}>
-            <a href="./index.html" className="navigation__logo">
-                <img src="images/logo.svg" className="navigation__logo image" alt="image-logo"/></a>
+            <a href="logo" className="navigation__logo">
+                <img src={logo} className="navigation__logo image" alt="image-logo"/></a>
             <ul className="navigation__list">
                 {["index", "fashion", "tech", "politics", "sport"].map((item) => {
                     return (
