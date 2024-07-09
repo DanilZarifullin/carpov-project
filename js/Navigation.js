@@ -1,3 +1,4 @@
+import React from "react"
 import { categoriesNames } from "./Utils.js"
 export const Navigation = ({className, cb, currentCategory}) => {
     return (

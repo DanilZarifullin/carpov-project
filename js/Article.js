@@ -1,5 +1,6 @@
 import { MainArticle } from "./MainArticle.js"
 import { SmallArticle } from "./SmallArticle.js"
+import React from "react"
 export const Articles = ({ articles }) => {
     return (
         <section className="articles">
