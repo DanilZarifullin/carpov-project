@@ -1,0 +1,36 @@
+.article-category {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: var(--color-accent);
+    text-transform: uppercase;
+}
+
+.article-source {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    color: var(--color-grey);
+    text-transform: uppercase;
+}
+.article-date {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    color: var(--color-accent);
+}
+.articles__big-column {
+    grid-column: span 9;
+}
+.articles__small-column {
+    grid-column: 10/-1;
+}
+.active {
+    color: var(--color-accent);
+}
+.articles  {
+    margin-bottom: 135px;
+}
+.article-date + .article-source:before {
+    content: " · ";
+}

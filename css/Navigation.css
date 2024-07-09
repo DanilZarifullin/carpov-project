@@ -1,0 +1,23 @@
+.navigation__list {
+
+    list-style: none;
+    display: flex;
+}
+.navigation__link {
+    text-decoration: none;
+}
+.navigation__item {
+    margin-right: 60px;
+}
+.navigation__ite:last-child {
+    margin-right: 0;
+}
+.navigation__link {
+    font-size: 24px;
+    color: var(--color-primary);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.navigation__link:hover {
+    color: var(--color-accent);
+}
